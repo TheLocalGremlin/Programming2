@@ -19,6 +19,8 @@ namespace ModelleringUppgift
 
             p1.hp = shot(b1.posX, p1.posX, b1.posY, p1.posY);
 
+            Console.ReadLine();
+
 
         }
 
