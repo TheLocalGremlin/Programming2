@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace xmlUppgift
 {
@@ -6,7 +8,9 @@ namespace xmlUppgift
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            doggo myDoggo = new doggo();
+
+            Filestream file = File.Open
         }
     }
 }
