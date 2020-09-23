@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -8,9 +9,17 @@ namespace xmlUppgift
     {
         static void Main(string[] args)
         {
+            XmlSerializer doggoSerializer = new XmlSerializer(typeof(doggo));
+
             doggo myDoggo = new doggo();
 
-            Filestream file = File.Open
+            using (FileStream file = File.Open(@"doggo.xml", FileMode.OpenOrCreate))
+            {
+                doggoSerializer.Serialize(file, myDoggo);
+            }
+
+
+            
         }
     }
 }

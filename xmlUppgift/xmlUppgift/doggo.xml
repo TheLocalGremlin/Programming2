@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<doggo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Ray</name>
+  <goodBoyLevels>90</goodBoyLevels>
+  <treats>0</treats>
+</doggo>
