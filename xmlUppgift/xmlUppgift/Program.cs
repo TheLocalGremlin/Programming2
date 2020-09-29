@@ -18,7 +18,10 @@ namespace xmlUppgift
                 doggoSerializer.Serialize(file, myDoggo);
             }
 
-
+            using (FileStream file = File.Open(@"doggo.xml", FileMode.OpenOrCreate))
+            {
+                myDoggo = doggoSerializer.Deserialize(file);
+            }
             
         }
     }
