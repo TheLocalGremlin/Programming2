@@ -20,7 +20,7 @@ namespace xmlUppgift
 
             using (FileStream file = File.Open(@"doggo.xml", FileMode.OpenOrCreate))
             {
-                myDoggo = doggoSerializer.Deserialize(file);
+                myDoggo = (doggo) doggoSerializer.Deserialize(file);
             }
             
         }
