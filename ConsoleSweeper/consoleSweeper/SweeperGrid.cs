@@ -9,5 +9,6 @@ namespace consoleSweeper
 
         public int state;
 
+                
     }
 }
