@@ -6,7 +6,7 @@ namespace consoleSweeper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
