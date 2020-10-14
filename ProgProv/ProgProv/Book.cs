@@ -5,7 +5,7 @@ namespace ProgProv
 {
     public class Book
     {
-        public int price;
+        public float price;
         int rarity;
         int actualValue;
         int chance;
@@ -60,7 +60,7 @@ namespace ProgProv
             System.Console.WriteLine("Name: " + name);
             System.Console.WriteLine("Category: " +category);
             System.Console.WriteLine("Rarity: " + rarity);
-            System.Console.WriteLine("Price: " + actualValue);
+            System.Console.WriteLine("Price: " + actualValue + "gp");
         }
     }
 }

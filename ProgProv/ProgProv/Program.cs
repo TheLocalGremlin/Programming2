@@ -8,10 +8,12 @@ namespace ProgProv
         {
             Book newBook = new Book();
 
-            newBook.Spawn();
+            Customers newCustomers = new Customers();
 
-            newBook.PrintInfo();
-            Console.ReadLine();
+            newBook.Spawn();
+            newCustomers.Spawn();
+            
+            System.Console.WriteLine("You have " + newCustomers.amount + " customers.");
         }
     }
 }
