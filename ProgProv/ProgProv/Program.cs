@@ -6,7 +6,12 @@ namespace ProgProv
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Book book1 = new Book();
+
+            Book.Book();
+
+            Book.PrintInfo();
+            Console.ReadLine()
         }
     }
 }
