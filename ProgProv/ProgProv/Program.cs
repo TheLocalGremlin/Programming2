@@ -6,12 +6,12 @@ namespace ProgProv
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book();
+            Book newBook = new Book();
 
-            Book.Book();
+            newBook.Spawn();
 
-            Book.PrintInfo();
-            Console.ReadLine()
+            newBook.PrintInfo();
+            Console.ReadLine();
         }
     }
 }

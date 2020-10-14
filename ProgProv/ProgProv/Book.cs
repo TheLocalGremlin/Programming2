@@ -31,7 +31,7 @@ namespace ProgProv
 
         Random generator = new Random();
 
-        public Book()
+        public void Spawn()
         {
             rarity = generator.Next(1,5);
             actualValue = generator.Next(5, 50);
