@@ -8,6 +8,7 @@ namespace Graphics
         static void Main(string[] args)
         {
             Raylib.InitWindow(800, 600, "Aloha Brochaskis");
+            
         }
     }
 }
