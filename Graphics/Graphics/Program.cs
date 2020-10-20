@@ -9,12 +9,12 @@ namespace Graphics
         {
             Raylib.InitWindow(800, 600, "Aloha Brochaskis");
 
-            while (!Raylib.WindowSouldClose())
+            while (!Raylib.WindowShouldClose())
             {
                 Raylib.BeginDrawing();
 
-                Raylib.ClearBackground()
-
+                Raylib.ClearBackground(Color.PURPLE);
+                
                 Raylib.EndDrawing();
             }
 
