@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Pirate_Simulator</RootNamespace>
+    <RootNamespace>Pirate_Sim</RootNamespace>
   </PropertyGroup>
 
 </Project>

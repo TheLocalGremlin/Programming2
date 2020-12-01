@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pirate_Simulator
+namespace Pirate_Sim
 {
     class Program
     {
