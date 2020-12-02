@@ -6,7 +6,16 @@ namespace Pirate_Sim
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool lose = false;
+
+            Ship myShip = new Ship();
+
+            while (lose != true)
+            {
+                bool alive = myShip.GetAlive();
+
+                System.Console.WriteLine("It's a new day and you set off wherever your heart");
+            }
         }
     }
 }
