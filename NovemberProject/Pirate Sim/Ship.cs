@@ -16,8 +16,8 @@ namespace Pirate_Sim
         "The Arcadia", "The Greymaiden", "The Siren's Tear", "Tide Runner", "The Hopeless Blade", "Wave Weasel", "The Lord of Dance",
         "Jupiter's Revenge", "Neptune's Favor", "The Fairweather Fortune", "The Omen", "Caballero", "The Mist", "Eden's Horizon"};
 
-        int HP;
-        int DMG;
+        public int HP;
+        public int DMG;
 
         bool isAlive = true;
 
@@ -56,22 +56,6 @@ namespace Pirate_Sim
         public void takeDMG(int dmgAmount)
         {
             HP =- dmgAmount;
-        }
-
-        public void Repair()
-        {
-            int healAmount = 25 - HP;
-            HP += healAmount;
-        }
-
-        public void Upgrade()
-        {
-            DMG =+ 2;
-        }
-
-        public void GetStats()
-        {
-            System.Console.WriteLine("Your ship, " + name + ", is at " + HP + "health and has a firepower of " + DMG);
         }
     }
 
