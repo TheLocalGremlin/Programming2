@@ -5,14 +5,16 @@ namespace Pirate_Sim
 {
     public class Ship
     {
-        string name;
+        public string name;
 
         List<string> possibleNames = new List<string>()
         {"The Dragonturtle", "La Desollador", "Reef Sprinter", "Wrath of the Umberlee", "The Wavebreaker", "Firewalker",
-        "The Morning Moon", "The Midnight Sun", "Old Salty", "Nightfall's Rest", "The Parched Parrot", "The Red Thief", "Uppertide",
-        "Lady of the Black Water", "Kraken's Kiss", "Triton's Bane", "The Gold Falchion", "The Seafoam Martyr", "Mistral Secret", "The Goading Riptide",
-        "The Torrent", "Misfit's Gamble", "Storm Giants Wake", "The Shooting Star", "Shadow Squall", "The Omen", "Wraith's Requiem",
-        "The Sea Maiden's Ballad", "Queen's Grace", "The Arcadia", "The Greymaiden", "The Siren's Tear", "Tide Runner", "The Hopeless Blade"};
+        "Windgrace", "Empress Celestina", "The Morning Moon", "The Midnight Sun", "Old Salty", "Nightfall's Rest", "The Parched Parrot",
+        "The Red Thief", "Uppertide", "The Stygian", "Lady of the Black Water", "Kraken's Kiss", "Triton's Bane", "The Gold Falchion",
+        "The Seafoam Martyr", "Mistral Secret", "The Goading Riptide", "The Torrent", "Misfit's Gamble", "Storm Giants Wake",
+        "The Shooting Star", "Shadow Squall", "The Omen", "Wraith's Requiem", "Maelstrom's Bane", "The Sea Maiden's Ballad", "Queen's Grace",
+        "The Arcadia", "The Greymaiden", "The Siren's Tear", "Tide Runner", "The Hopeless Blade", "Wave Weasel", "The Lord of Dance",
+        "Jupiter's Revenge", "Neptune's Favor", "The Fairweather Fortune", "The Omen", "Caballero", "The Mist", "Eden's Horizon"};
 
         int HP;
         int DMG;
@@ -41,6 +43,8 @@ namespace Pirate_Sim
 
             int n = generator.Next(possibleNames.Count);
             name = possibleNames[n];
+
+            possibleNames.RemoveAt(n);
         }
 
         public int Attack()
