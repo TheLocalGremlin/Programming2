@@ -9,7 +9,11 @@ namespace Pirate_Sim
         public string name;
 
         List<string> possibleNames = new List<string>()
-        {"Grand Island Port", "Stormfury Landing", "Saltlake Harbor"};
+        {"Grand Island Port", "Stormfury Landing", "Saltlake Harbor", "Newhaven Harbor", "Silver Bluff Wharf",
+        "Hamfolk Landing", "The Landing of Graventham", "Bracestead Piers", "Turtle Bay", "Ringmeuse Port",
+        "Repenville Port", "Avalon Landing", "Iturich Harbor", "Greymouth Wharf", "New Moon Landing", "Dartfolk Wharf",
+        "Oceanfall Landing", "Wapester Harbor", "Water Whale Pier", "The Port of Buchline", "Picsea Wharf",
+        "Albatross Point Harbor", "False River Port", };
 
         int cargoValue;
 
@@ -31,7 +35,7 @@ namespace Pirate_Sim
         {
             while (finished == false)
             {
-                
+
             }
         }
     }

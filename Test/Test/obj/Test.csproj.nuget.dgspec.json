@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elev.5CG6233CRK\\Dropbox\\Programming2\\Test\\Test.csproj": {}
+    "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\Test\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elev.5CG6233CRK\\Dropbox\\Programming2\\Test\\Test.csproj": {
+    "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\Test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elev.5CG6233CRK\\Dropbox\\Programming2\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\Test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\elev.5CG6233CRK\\Dropbox\\Programming2\\Test\\Test.csproj",
-        "packagesPath": "C:\\Users\\elev.5CG6233CRK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elev.5CG6233CRK\\Dropbox\\Programming2\\Test\\obj\\",
+        "projectPath": "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\Test\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Eliana.Parada\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\Test\\Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\elev.5CG6233CRK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eliana.Parada\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
