@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\bin\Debug\netcoreapp3.1\ProgProv.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\ProgProv\ProgProv\obj\Debug\netcoreapp3.1\ProgProv.genruntimeconfig.cache

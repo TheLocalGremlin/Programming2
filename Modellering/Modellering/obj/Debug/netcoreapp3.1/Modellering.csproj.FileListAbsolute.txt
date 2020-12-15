@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\bin\Debug\netcoreapp3.1\Modellering.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Modellering\Modellering\obj\Debug\netcoreapp3.1\Modellering.genruntimeconfig.cache

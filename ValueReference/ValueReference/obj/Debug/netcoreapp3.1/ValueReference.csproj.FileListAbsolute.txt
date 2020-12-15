@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\bin\Debug\netcoreapp3.1\ValueReference.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\ValueReference\ValueReference\obj\Debug\netcoreapp3.1\ValueReference.genruntimeconfig.cache

@@ -4,6 +4,10 @@ namespace Pirate_Sim
 {
     public class PlayerShip: Ship
     {
+        public int upgrades;
+
+        public bool map;
+
          public void Repair()
         {
             int healAmount = 25 - HP;

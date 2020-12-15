@@ -18,6 +18,7 @@ namespace Pirate_Sim
 
         public int HP;
         public int DMG;
+        public int cargo;
 
         bool isAlive = true;
 
@@ -40,6 +41,7 @@ namespace Pirate_Sim
         {
             HP = 25;
             DMG = 5;
+            cargo = 20;
 
             int n = generator.Next(possibleNames.Count);
             name = possibleNames[n];

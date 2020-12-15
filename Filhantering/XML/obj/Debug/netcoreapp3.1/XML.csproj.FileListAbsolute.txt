@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\bin\Debug\netcoreapp3.1\XML.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Filhantering\XML\obj\Debug\netcoreapp3.1\XML.genruntimeconfig.cache

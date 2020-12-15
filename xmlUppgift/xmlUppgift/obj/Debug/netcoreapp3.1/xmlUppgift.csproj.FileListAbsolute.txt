@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\bin\Debug\netcoreapp3.1\xmlUppgift.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\xmlUppgift\xmlUppgift\obj\Debug\netcoreapp3.1\xmlUppgift.genruntimeconfig.cache

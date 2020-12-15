@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\bin\Debug\netcoreapp3.1\Pirate Sim.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\NovemberProject\Pirate Sim\obj\Debug\netcoreapp3.1\Pirate Sim.genruntimeconfig.cache
