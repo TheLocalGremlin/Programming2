@@ -5,30 +5,12 @@ namespace Test
 {
     public class People
     {
-        List<string> names = new List<string>{
-            "Irene", "Seulgi", "Wendy", "Joy", "Yeri"
-        };
+        public string myName;
 
-        Random generator = new Random();
-
-        string name;
-
-        public voiid Spawn()
+        public void Spawn()
         {
-            int n = generator.Next(names.Count);
-
-            if (n < 0)
-            {
-                name = "RV";
-            }
-
-            else
-            {
-            name = names[n];
-
-            names.RemoveAt(n);
-            }
-
+            myName = "Frank Martin Carlos";
+            System.Console.WriteLine(myName);
         }
     }
 }

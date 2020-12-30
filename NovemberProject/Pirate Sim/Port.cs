@@ -8,7 +8,7 @@ namespace Pirate_Sim
     {
         public string name;
 
-        List<string> possibleNames = new List<string>()
+        static List<string> possibleNames = new List<string>()
         {"Grand Island Port", "Stormfury Landing", "Saltlake Harbor", "Newhaven Harbor", "Silver Bluff Wharf",
         "Hamfolk Landing", "The Landing of Graventham", "Bracestead Piers", "Turtle Bay", "Ringmeuse Port",
         "Repenville Port", "Avalon Landing", "Iturich Harbor", "Greymouth Wharf", "New Moon Landing", "Dartfolk Wharf",
@@ -31,12 +31,6 @@ namespace Pirate_Sim
             possibleNames.RemoveAt(n);
         }
 
-        public void Store()
-        {
-            while (finished == false)
-            {
-
-            }
-        }
+        
     }
 }

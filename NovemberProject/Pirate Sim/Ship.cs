@@ -7,7 +7,7 @@ namespace Pirate_Sim
     {
         public string name;
 
-        List<string> possibleNames = new List<string>()
+        static List<string> possibleNames = new List<string>()
         {"The Dragonturtle", "La Desollador", "Reef Sprinter", "Wrath of the Umberlee", "The Wavebreaker", "Firewalker",
         "Windgrace", "Empress Celestina", "The Morning Moon", "The Midnight Sun", "Old Salty", "Nightfall's Rest", "The Parched Parrot",
         "The Red Thief", "Uppertide", "The Stygian", "Lady of the Black Water", "Kraken's Kiss", "Triton's Bane", "The Gold Falchion",

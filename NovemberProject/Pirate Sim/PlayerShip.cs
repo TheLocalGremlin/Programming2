@@ -6,6 +6,8 @@ namespace Pirate_Sim
     {
         public int upgrades;
 
+        public int gold;
+
         public bool map;
 
          public void Repair()
