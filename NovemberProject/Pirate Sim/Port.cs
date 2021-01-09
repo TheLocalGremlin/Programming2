@@ -15,9 +15,9 @@ namespace Pirate_Sim
         "Oceanfall Landing", "Wapester Harbor", "Water Whale Pier", "The Port of Buchline", "Picsea Wharf",
         "Albatross Point Harbor", "False River Port", };
 
-        int cargoValue;
+        public int cargoValue;
 
-        bool finished = false;
+        public bool mapSold;
 
         Random generator = new Random();
 
@@ -29,6 +29,18 @@ namespace Pirate_Sim
             cargoValue = generator.Next(5, 25);
 
             possibleNames.RemoveAt(n);
+
+            int m = generator.Next(1, 100);
+
+            if (m <= 25)
+            {
+                mapSold = true;
+            }
+
+            else
+            {
+                mapSold = false;
+            }
         }
 
         
