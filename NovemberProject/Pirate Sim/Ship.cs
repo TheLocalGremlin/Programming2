@@ -20,20 +20,18 @@ namespace Pirate_Sim
         public int DMG;
         public int cargo;
 
-        bool isAlive = true;
-
         Random generator = new Random();
 
-        public bool GetAlive()
+        public bool GetDead()
         {
-            if (isAlive == false)
+            if (HP < 1)
             {
-                return false;
+                return true;
             }
 
             else
             {
-                return true;
+                return false;
             }
         }
 
@@ -41,7 +39,7 @@ namespace Pirate_Sim
         {
             HP = 25;
             DMG = 5;
-            cargo = 20;
+            cargo = 5;
 
             int n = generator.Next(possibleNames.Count);
             name = possibleNames[n];
@@ -57,7 +55,7 @@ namespace Pirate_Sim
 
         public void takeDMG(int dmgAmount)
         {
-            HP =- dmgAmount;
+            HP -= dmgAmount;
         }
     }
 

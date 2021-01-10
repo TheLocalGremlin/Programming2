@@ -23,33 +23,151 @@ namespace Pirate_Sim
 
             while (lose != true)
             {
+                Console.Clear();
                 System.Console.WriteLine("It's a new day and you set off wherever your heart desires.");
-
-                Store();
-
                 Console.ReadLine();
+                System.Console.WriteLine("Morning:");
+                RandomEvent();
+                bool dead = myShip.GetDead();
+                if (dead == true)
+                {
+                    lose = true;
+                    break;
+                }
 
-                Store();
+                Console.Clear();
+                System.Console.WriteLine("Afternoon:");
+                RandomEvent();
+                dead = myShip.GetDead();
+                if (dead == true)
+                {
+                    lose = true;
+                    break;
+                }
+
+                Console.Clear();
+                System.Console.WriteLine("Evening:");
+                RandomEvent();
+                dead = myShip.GetDead();
+                if (dead == true)
+                {
+                    lose = true;
+                    break;
+                }
                 
-                bool alive = myShip.GetAlive();
             }
+
+            Console.Clear();
+            System.Console.WriteLine("You have died.");
+            System.Console.WriteLine("You finished with " + myShip.gold + " gp");
+            Console.ReadLine();
 
             void Combat()
             {
                 Ship enemyShip = new Ship();
 
+                System.Console.WriteLine("It fight time");
+                Console.ReadLine();
                 
             }
 
             void RandomEvent()
             {
-                
+                int randEv = generator.Next(1, 100);
 
-                List<string> events = new List<string>()
+                System.Console.WriteLine(randEv);
+
+                understood = false;
+
+                if (randEv > 0 && randEv <= 30)
                 {
-                    
-                };
+                    System.Console.WriteLine("While you and your crew sail along one of your crewmates calls for you, pointing off the side of the ship.");
+                    System.Console.WriteLine("'Looks like another ship Captain! Do you want to go on the offensive?'");
+                    Console.ReadLine();
+                    while (understood == false)
+                    {
+                        Console.Clear();
+                        System.Console.WriteLine("What would you like to do?");
+                        System.Console.WriteLine("1: Attack");
+                        System.Console.WriteLine("2: Leave the ship alone");
 
+                        string answer = Console.ReadLine();
+
+                        switch (answer)
+                        {
+                            case "1":
+                                understood = true;
+                                System.Console.WriteLine("'You heard the Captain! Full sail towards the ship!'");
+                                Console.ReadLine();
+                                Combat();
+                                break;
+
+                            case "2":
+                                understood = true;
+                                System.Console.WriteLine("'As you wish Captain, continue on!'");
+                                Console.ReadLine();
+                                break;
+
+                            default:
+                                break;
+                        }
+                    }
+                }
+
+                if (randEv > 30 && randEv <= 40)
+                {
+                    System.Console.WriteLine("While you and your crew sail along one of your crewmates calls for you, pointing off the side of the ship.");
+                    System.Console.WriteLine("'Captain! Look!'");
+                    System.Console.WriteLine("Another ship is barrelling towards yours at a speed you don't think you'll be able to outrun currently.");
+                    System.Console.WriteLine("You hear the ringing of a bell as your crew ready themselves for combat.");
+                    Console.ReadLine();
+                    Combat();
+                }
+
+                if (randEv > 40 && randEv <= 50)
+                {
+                    System.Console.WriteLine("A storm picks up overhead and your crew scrambles frantically to prepare the ship for the incoming harshness.");
+                    int stormDamage = generator.Next(2, 8);
+                    System.Console.WriteLine("You manage to get through the storm and your ship takes " + stormDamage + " damage.");
+                    myShip.takeDMG(stormDamage);
+                    System.Console.WriteLine("You are now at " + myShip.HP + " health.");
+                    Console.ReadLine();    
+                }
+
+                if (randEv > 50 && randEv <= 80)
+                {
+                    System.Console.WriteLine("You see a port town in the distance and decide to take a rest from sea.");
+                    Console.ReadLine();
+                    Store();
+                }
+
+                if (randEv > 80)
+                {
+                    if (randEv < 80 && randEv >= 90 && myShip.map == true)
+                    {
+                        System.Console.WriteLine("Nothing of note happens.");
+                        Console.ReadLine();
+                    }
+
+                    if (myShip.map == true && randEv >= 90)
+                    {
+                        System.Console.WriteLine("You see an island in the distance, you're about to change course but something feels familiar about it.");
+                        System.Console.WriteLine("Then you remember the map you bought and realize the similarities in the geography.");
+                        System.Console.WriteLine("You order your crew to dock and take a small group and one of the dinghys and make your way to the island.");
+                        System.Console.WriteLine("It takes several hours but you and your crew end up finding the location of the buried treasure and digging it up.");
+                        int treasureAmount = generator.Next(25, 50);
+                        System.Console.WriteLine("You leave the island " + treasureAmount + " gold pieces richer.");
+                        myShip.gold += treasureAmount;
+                        Console.ReadLine();
+                    }
+
+                    if (myShip.map == false && randEv > 80)
+                    {
+                        System.Console.WriteLine("Nothing of note happens.");
+                        Console.ReadLine();
+                    }
+                }
+                
             }
 
             void Store()
@@ -208,7 +326,7 @@ namespace Pirate_Sim
                             understood = true;
                             finished = true;
 
-                            if (newPort.mapSold == true)
+                            if (newPort.mapSold == true && myShip.map == false)
                             {
                                 System.Console.WriteLine("Before you leave, the shopkeeper stops you.");
                                 System.Console.WriteLine("'May I interest you in another item?'");
