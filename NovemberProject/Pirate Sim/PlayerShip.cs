@@ -10,15 +10,9 @@ namespace Pirate_Sim
 
         public bool map;
 
-        public void Repair()
-        {
-            int healAmount = 25 - HP;
-            HP += healAmount;
-        }
-
         public void Upgrade()
         {
-            DMG =+ 2;
+            DMG += 2;
         }
 
         public void GetStats()

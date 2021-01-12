@@ -66,8 +66,168 @@ namespace Pirate_Sim
             {
                 Ship enemyShip = new Ship();
 
-                System.Console.WriteLine("It fight time");
-                Console.ReadLine();
+                bool combat = true;
+                bool dead = false;
+
+                bool enemyDefense = false;
+                bool playerDefense = false;
+
+
+                while (combat == true)
+                {
+                    Console.Clear();
+                    understood = false;
+                    while (understood == false)
+                    {
+                        System.Console.WriteLine("What would you like to do?");
+                        System.Console.WriteLine("1: Shoot");
+                        System.Console.WriteLine("2: Dodge");
+                        System.Console.WriteLine("3: Attempt Escape (1/4 chance of success)");
+
+                        string answer = Console.ReadLine();
+
+                        switch (answer)
+                        {
+                            case "1":
+                                understood = true;
+                                System.Console.WriteLine("At your mark, the master gunner orders all of the cannoneers to take aim.");
+
+                                int hit = generator.Next(1, 20);
+                                System.Console.WriteLine(hit);
+
+                                if (hit > 5 && enemyDefense == false)
+                                {
+                                    System.Console.WriteLine("The cannons fire with a thunderous crack and the cannonballs manage to hit the other ship.");
+                                    int dmg = myShip.Attack();
+                                    enemyShip.takeDMG(dmg);
+                                    System.Console.WriteLine(dmg);
+                                }
+
+                                else if (hit > 10 && enemyDefense == true)
+                                {
+                                    System.Console.WriteLine("The cannons fire with a thunderous crack and the cannonballs manage to hit the other ship.");
+                                    int dmg = myShip.Attack();
+                                    enemyShip.takeDMG(dmg);
+                                    System.Console.WriteLine(dmg);
+                                }
+
+                                else
+                                {
+                                    System.Console.WriteLine("The cannons fire with a thunderous crack but you unfortunately manage to hit nothing.");
+                                }
+                                break;
+
+                            case "2":
+                                understood = true;
+                                playerDefense = true;
+                                System.Console.WriteLine("You order your helmsman to be ready for any upcoming attacks.");
+                                break;
+
+                            case "3":
+                            understood = true;
+                                System.Console.WriteLine("Assesing the situation, you decide it might be best to flee.");
+                                int escapeAttempt = generator.Next(1, 20);
+
+                                if (escapeAttempt > 15)
+                                {
+                                    System.Console.WriteLine("You try and escape but you are unable.");
+                                }
+
+                                else
+                                {
+                                    System.Console.WriteLine(enemyShip.name + " tries to give chase but eventually you manage to escape.");
+                                    combat = false;
+                                }
+                                break;
+
+                            default:
+                                break;
+                        }
+
+                        System.Console.WriteLine("Your HP: " + myShip.HP);
+                        System.Console.WriteLine("Enemy's HP: " + enemyShip.HP);
+                        Console.ReadLine();
+                    }
+                    enemyDefense = false;
+                    if (combat == false)
+                    {
+                        break;
+                    }
+
+                    dead = enemyShip.GetDead();
+                    if (dead == true)
+                    {
+                        break;
+                    }
+
+                    Console.Clear();
+
+                    int enemyTurn = generator.Next(1, 100);
+
+                    if (enemyTurn > 0 && enemyTurn < 50)
+                    {
+                        int hit = generator.Next(1, 20);
+                        System.Console.WriteLine(hit);
+
+                        if (hit > 5 && playerDefense == false)
+                        {
+                            System.Console.WriteLine(enemyShip.name + "'s cannons fire with a thunderous crack and the cannonballs manage to hit you.");
+                            int dmg = enemyShip.Attack();
+                            myShip.takeDMG(dmg);
+                            System.Console.WriteLine(dmg);
+                        }
+
+                        else if (hit > 10 && playerDefense == true)
+                        {
+                            System.Console.WriteLine(enemyShip.name + "'s cannons fire with a thunderous crack and the cannonballs manage to hit you.");
+                            int dmg = enemyShip.Attack();
+                            myShip.takeDMG(dmg);
+                            System.Console.WriteLine(dmg);
+                        }
+
+                        else
+                        {
+                            System.Console.WriteLine(enemyShip + "'s cannons fire with a thunderous crack but you unfortunately manage to hit nothing.");
+                        }
+                    }
+
+                    if (enemyTurn >= 50 && enemyTurn < 80)
+                    {
+                        System.Console.WriteLine("You can hear the barked orders of " + enemyShip.name + "'s captain.");
+                        System.Console.WriteLine("You can vaguely make out them telling their crew to get ready for any attacks.");
+                        enemyDefense = true;
+                    }
+
+                    if (enemyTurn >= 80)
+                    {
+                        System.Console.WriteLine("You can hear the barked orders of " + enemyShip.name + "'s captain.");
+                        System.Console.WriteLine("You can vaguely make out them telling their crew to haul ass.");
+
+                        int escapeAttempt = generator.Next(1, 20);
+
+                        if (escapeAttempt > 15)
+                        {
+                            System.Console.WriteLine(enemyShip.name + " tries to escape but they are unable.");
+                        }
+
+                        else
+                        {
+                            System.Console.WriteLine("You try to give chase but eventually they manage to escape.");
+                            combat = false;
+                        }
+                    }
+
+                    playerDefense = false;
+
+                    System.Console.WriteLine("Your HP: " + myShip.HP);
+                    System.Console.WriteLine("Enemy's HP: " + enemyShip.HP);
+                    dead = myShip.GetDead();
+                    if (dead == true)
+                    {
+                        break;
+                    }
+                    Console.ReadLine();
+                }
                 
             }
 

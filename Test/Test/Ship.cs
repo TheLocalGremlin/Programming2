@@ -4,19 +4,40 @@ namespace Test
 {
     public class Ship
     {
-        public int HP;
+        Random generator = new Random();
 
-        public int gold;
+        public int HP = 20;
 
         public int upgrades;
 
-        public int cargoAmount;
+        public int cargo;
 
-        public bool map;
+        public int DMG = 5;
 
-        public void Upgrade()
+        public string name = "Bob";
+
+        public int Attack()
         {
-            System.Console.WriteLine("You have upgraded your cannons");
+            int dmgAmount =  generator.Next(1, DMG);
+            return dmgAmount;
+        }
+
+        public void takeDMG(int dmgAmount)
+        {
+            HP -= dmgAmount;
+        }
+
+        public bool GetDead()
+        {
+            if (HP < 1)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
         }
     }
 }
