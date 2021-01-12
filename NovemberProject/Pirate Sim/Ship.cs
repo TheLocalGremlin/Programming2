@@ -39,10 +39,11 @@ namespace Pirate_Sim
         {
             HP = 25;
             DMG = 5;
-            cargo = 5;
 
             int n = generator.Next(possibleNames.Count);
             name = possibleNames[n];
+
+            cargo = generator.Next(2, 8);
 
             possibleNames.RemoveAt(n);
         }

@@ -18,6 +18,7 @@ namespace Pirate_Sim
             myShip.Spawn();
             myShip.upgrades = 0;
             myShip.gold = 10;
+            myShip.cargo = 5;
             System.Console.WriteLine("You are now captain of " + myShip.name);
             Console.Read();
 
@@ -227,6 +228,14 @@ namespace Pirate_Sim
                         break;
                     }
                     Console.ReadLine();
+                }
+
+                Console.Clear();
+
+                if (enemyShip.HP < 1)
+                {
+                    System.Console.WriteLine("As " + enemyShip.name + " sinks below the waves, your crew manages to salvage its cargo.");
+                    System.Console.WriteLine("You leave the battle " + enemyShip.cargo + " units of cargo richer.");
                 }
                 
             }
