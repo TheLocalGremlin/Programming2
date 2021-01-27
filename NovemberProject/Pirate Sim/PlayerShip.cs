@@ -17,7 +17,9 @@ namespace Pirate_Sim
 
         public void GetStats()
         {
-            System.Console.WriteLine("Your ship, " + name + ", is at " + HP + "health and has a firepower of " + DMG);
+            System.Console.WriteLine("Your ship, " + name + ", is at " + HP + " health and has a firepower of " + DMG);
+            System.Console.WriteLine(name + " carries " + gold + " gold pieces and " + cargo + " units of cargo.");
+            Console.ReadLine();
         }
     }
 }

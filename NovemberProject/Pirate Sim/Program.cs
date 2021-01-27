@@ -26,6 +26,7 @@ namespace Pirate_Sim
             {
                 Console.Clear();
                 System.Console.WriteLine("It's a new day and you set off wherever your heart desires.");
+                myShip.GetStats();
                 Console.ReadLine();
                 System.Console.WriteLine("Morning:");
                 RandomEvent();
@@ -66,6 +67,7 @@ namespace Pirate_Sim
             void Combat()
             {
                 Ship enemyShip = new Ship();
+                enemyShip.Spawn();
 
                 bool combat = true;
                 bool dead = false;
@@ -188,7 +190,7 @@ namespace Pirate_Sim
 
                         else
                         {
-                            System.Console.WriteLine(enemyShip + "'s cannons fire with a thunderous crack but you unfortunately manage to hit nothing.");
+                            System.Console.WriteLine(enemyShip.name + "'s cannons fire with a thunderous crack but you unfortunately manage to hit nothing.");
                         }
                     }
 
@@ -236,6 +238,8 @@ namespace Pirate_Sim
                 {
                     System.Console.WriteLine("As " + enemyShip.name + " sinks below the waves, your crew manages to salvage its cargo.");
                     System.Console.WriteLine("You leave the battle " + enemyShip.cargo + " units of cargo richer.");
+                    myShip.cargo += enemyShip.cargo;
+                    Console.ReadLine();
                 }
                 
             }
@@ -362,7 +366,7 @@ namespace Pirate_Sim
                     {
                         case "1":
                             understood = true;
-                            int upgradePrice = 10 + (5 * myShip.upgrades);
+                            int upgradePrice = 10 + (10 * myShip.upgrades);
 
                             if (myShip.upgrades >= 5)
                             {
@@ -415,7 +419,7 @@ namespace Pirate_Sim
                         case "2":
                             understood = true;
                             int difference  = 25 - myShip.HP;
-                            int repairPrice = difference * 2;
+                            int repairPrice = difference * 5;
                             
 
                             if (difference < 1)
@@ -434,7 +438,7 @@ namespace Pirate_Sim
 
                                 else
                                 {
-                                    myShip.HP =+ difference;
+                                    myShip.HP -= difference;
                                     System.Console.WriteLine("You now have " + myShip.gold + " gp.");
                                     System.Console.WriteLine(myShip.HP);
                                 }
@@ -503,8 +507,8 @@ namespace Pirate_Sim
                                 System.Console.WriteLine("Inside the box is a scroll of fine parchment.");
                                 System.Console.WriteLine("'This,' they explain, 'is a map that belonged to a famous pirate!'");
                                 System.Console.WriteLine("'Now, this pirate died a long time ago but some say that their stash of treasure is still buried somewhere around these islands.'");
-                                Console.ReadLine();
                                 System.Console.Write("'This map could be yours for only 30 gp, ");
+                                Console.Read();
 
                                 if (myShip.gold < 30)
                                 {
@@ -545,7 +549,7 @@ namespace Pirate_Sim
                                 }
                             }
                             System.Console.WriteLine("You have left the store");
-                            Console.Read();
+                            Console.ReadLine();
                         break;
 
                         default:
