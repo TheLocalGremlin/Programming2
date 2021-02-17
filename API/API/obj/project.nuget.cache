@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xz/p89tqGvhuUAHLkZVcdpXX2owHjQqpxqfOqbGuLm4HGPe+ugspyQAlgu89UQ7rARTvqz6wyAjSJ6VAE9OYzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eliana.Parada\\Dropbox\\Programming2\\API\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eliana.Parada\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Eliana.Parada\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}
