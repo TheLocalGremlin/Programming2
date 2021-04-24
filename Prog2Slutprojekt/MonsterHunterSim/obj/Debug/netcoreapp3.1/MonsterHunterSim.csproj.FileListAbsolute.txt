@@ -1,0 +1,13 @@
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.csprojAssemblyReference.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.AssemblyInfoInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.AssemblyInfo.cs
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.csproj.CoreCompileInputs.cache
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.exe
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.deps.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.runtimeconfig.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.runtimeconfig.dev.json
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\bin\Debug\netcoreapp3.1\MonsterHunterSim.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.dll
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.pdb
+C:\Users\Eliana.Parada\Dropbox\Programming2\Prog2Slutprojekt\MonsterHunterSim\obj\Debug\netcoreapp3.1\MonsterHunterSim.genruntimeconfig.cache
