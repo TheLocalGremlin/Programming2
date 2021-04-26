@@ -4,14 +4,13 @@ namespace MonsterHunterSim
 {
     public class Hunt
     {
-        int XP;
-        int payment;
-        int difficulty;
+        public int XP;
+        public int payment;
+        public int difficulty;
 
-        int monsterHP;
-
+        public int monsterHP;
         public int monsterDMG;
-        public int monsterHitChance;
+        public int monsterHitChance = 12;
 
         Random generator = new Random();
 

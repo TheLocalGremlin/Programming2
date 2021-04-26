@@ -8,6 +8,7 @@ namespace MonsterHunterSim
 
         public int bountiesTaken;
         public int money;
+        public int XP;
 
         public Player()
         {
