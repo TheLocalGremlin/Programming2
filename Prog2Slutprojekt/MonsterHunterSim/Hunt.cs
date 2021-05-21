@@ -35,6 +35,8 @@ namespace MonsterHunterSim
             playerDefense = false;
             enemyDefense = false;
 
+            playerHP += powerUp;
+
             while (combat == true)
             {
                 Console.Clear();

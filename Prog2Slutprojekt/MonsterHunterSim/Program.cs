@@ -171,6 +171,67 @@ namespace MonsterHunterSim
                         case "2":
                             understood = true;
 
+                            System.Console.WriteLine("You have " + newPlayer.money + " gp");
+
+                            System.Console.WriteLine("What level power up would you like?");
+                            System.Console.WriteLine("1: Level 1 10 gp");
+                            System.Console.WriteLine("2: Level 2 15 gp");
+                            System.Console.WriteLine("3: Level 3 20 gp");
+
+                            bool understood4 = false;
+
+                            while (understood4 == false)
+                            {
+                                string answer4 = Console.ReadLine();
+
+                                switch (answer4)
+                                {
+                                    case "1":
+                                        understood4 = true;
+
+                                        if (newPlayer.money < 10)
+                                        {
+                                            System.Console.WriteLine("You don't have enough money for this");
+                                            Console.ReadLine();
+                                            break;
+                                        }
+
+                                        powerUps.Enqueue(5);
+                                        newPlayer.money-= 10;
+                                        break;
+
+                                    case "2":
+                                        understood4 = true;
+
+                                        if (newPlayer.money < 15)
+                                        {
+                                            System.Console.WriteLine("You don't have enough money for this");
+                                            Console.ReadLine();
+                                            break;
+                                        }
+
+                                        powerUps.Enqueue(10);
+                                        newPlayer.money-= 15;
+                                        break;
+
+                                    case "3":
+                                        understood4 = true;
+
+                                        if (newPlayer.money < 20)
+                                        {
+                                            System.Console.WriteLine("You don't have enough money for this");
+                                            Console.ReadLine();
+                                            break;
+                                        }
+
+                                        powerUps.Enqueue(15);
+                                        newPlayer.money-= 20;
+                                        break;
+
+                                    default:
+                                        break;
+                                }
+                            }
                             break;
 
                         case "3":
