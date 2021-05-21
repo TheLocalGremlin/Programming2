@@ -10,7 +10,14 @@ namespace MonsterHunterSim
 
         public int monsterHP;
         public int monsterDMG;
-        public int monsterHitChance = 12;
+        public int monsterHitChance;
+
+        public int playerTurn;
+        public int enemyTurn;
+        public bool combat;
+        public bool lose;
+        public bool playerDefense;
+        public bool enemyDefense;
 
         Random generator = new Random();
 
@@ -20,23 +27,17 @@ namespace MonsterHunterSim
             monsterHP = difficulty * h;
         }
 
-        public void combat (int playerHP, int playerBaseDMG, int playerBaseHitChance, int playerSpecialAttackDMG, int playerSpecialAttackChance)
+        public bool huntCombat (int playerHP, int playerBaseDMG, int playerBaseHitChance, int playerSpecialAttackDMG, int playerSpecialAttackChance, int powerUp)
         {
-            int playerTurn;
-            int enemyTurn;
+            combat = true;
+            lose = false;
 
-            bool combat = true;
-            bool lose = false;
-
-            bool playerDefense = false;
-            bool enemyDefense = false;
+            playerDefense = false;
+            enemyDefense = false;
 
             while (combat == true)
             {
                 Console.Clear();
-
-                System.Console.WriteLine("Your HP: " + playerHP);
-                System.Console.WriteLine("Enemy HP: " + monsterHP);
 
                 playerDefense = false;
 
@@ -61,6 +62,11 @@ namespace MonsterHunterSim
                     {
                         dmg = generator.Next(1, playerBaseDMG);
                         monsterHP -= dmg;
+                    }
+
+                    else
+                    {
+                        System.Console.WriteLine("Miss");
                     }
                 }
 
@@ -103,6 +109,7 @@ namespace MonsterHunterSim
                 }
 
                 playerDefense = false;
+                Console.ReadLine();
 
 
                 enemyTurn = generator.Next(1, 20);
@@ -145,8 +152,10 @@ namespace MonsterHunterSim
                     lose = true;
                     break;
                 }
-            }
 
+                Console.ReadLine();
+            }
+            return lose;
         }
     }
 }

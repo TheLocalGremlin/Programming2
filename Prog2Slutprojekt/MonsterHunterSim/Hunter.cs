@@ -35,21 +35,10 @@ namespace MonsterHunterSim
             return dmg;
         }
 
-        public virtual int SpecialAttack()
+        public virtual void Spawn()
         {
-            int dmg;
-            int hit = generator.Next(1, 20);
-            if (hit >= specialAttackChance)
-            {
-                dmg = generator.Next(1, baseDMG);
-            }
-            
-            else
-            {
-                dmg = 0;
-            }
-
-            return dmg;
         }
+
+
     }
 }

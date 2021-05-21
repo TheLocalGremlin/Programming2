@@ -14,5 +14,14 @@ namespace MonsterHunterSim
             specialAttackChance = 10;
         }
         
+        public override void Spawn()
+        {
+            hunterHP = 10;
+
+            baseDMG = 8;
+            baseHitChance = 8;
+            specialAttackDMG = 12;
+            specialAttackChance = 10;
+        }
     }
 }
